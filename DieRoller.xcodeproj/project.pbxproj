@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19BC22FAB7F14B5539A4E177 /* DieRollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74D655CAD784213DF39B7B4 /* DieRollerTests.swift */; };
+		37BE1F515B83B5A684FD3F9A /* RollResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63C02AFADF92CB09C35E233 /* RollResult.swift */; };
+		52202C0B5A3E7F90D0A00572 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C052D8447064FAC70A2E1529 /* ResultsView.swift */; };
+		533C7C423BB9428BCA51127C /* DiceRoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449749FC58E86E39EF225AB5 /* DiceRoller.swift */; };
+		60E7CD2C390565A54DB187CA /* DieRollerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D320B8BDD017658E25E247 /* DieRollerApp.swift */; };
+		DE3AD1EE7F54979BB95286D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020769F2648D47AC2A30F9CD /* Assets.xcassets */; };
+		DFD1014B820D3E070B8FBB0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF27598825BE85E9426604EB /* ContentView.swift */; };
+		E5F52EEF581102D233E23EDE /* DieType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16735898B2422CD299325F9 /* DieType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D291E8E8A63387727ED4D8D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA892908FCD93733E9ED53F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F24D9B46F58769590E475F97;
+			remoteInfo = DieRoller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020769F2648D47AC2A30F9CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		072023FF3F5BE52E7DDF5314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1D87368552BBE8AAFCE83B3A /* DieRoller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DieRoller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21C3C801C1C059664A0BD319 /* DieRoller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DieRoller.entitlements; sourceTree = "<group>"; };
+		449749FC58E86E39EF225AB5 /* DiceRoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRoller.swift; sourceTree = "<group>"; };
+		71D320B8BDD017658E25E247 /* DieRollerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DieRollerApp.swift; sourceTree = "<group>"; };
+		923C70590096B1856A3E7EA6 /* DieRollerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DieRollerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16735898B2422CD299325F9 /* DieType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DieType.swift; sourceTree = "<group>"; };
+		B63C02AFADF92CB09C35E233 /* RollResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollResult.swift; sourceTree = "<group>"; };
+		C052D8447064FAC70A2E1529 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		D74D655CAD784213DF39B7B4 /* DieRollerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DieRollerTests.swift; sourceTree = "<group>"; };
+		DF27598825BE85E9426604EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		41A2122D7581092AF3A09CA4 = {
+			isa = PBXGroup;
+			children = (
+				5A5B2812A1B786FC039A548C /* DieRoller */,
+				6B2279A556FF34529BD9314A /* DieRollerTests */,
+				FAB41F431CA1CABCD8CE2BC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A5B2812A1B786FC039A548C /* DieRoller */ = {
+			isa = PBXGroup;
+			children = (
+				020769F2648D47AC2A30F9CD /* Assets.xcassets */,
+				DF27598825BE85E9426604EB /* ContentView.swift */,
+				449749FC58E86E39EF225AB5 /* DiceRoller.swift */,
+				21C3C801C1C059664A0BD319 /* DieRoller.entitlements */,
+				71D320B8BDD017658E25E247 /* DieRollerApp.swift */,
+				B16735898B2422CD299325F9 /* DieType.swift */,
+				072023FF3F5BE52E7DDF5314 /* Info.plist */,
+				C052D8447064FAC70A2E1529 /* ResultsView.swift */,
+				B63C02AFADF92CB09C35E233 /* RollResult.swift */,
+			);
+			path = DieRoller;
+			sourceTree = "<group>";
+		};
+		6B2279A556FF34529BD9314A /* DieRollerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D74D655CAD784213DF39B7B4 /* DieRollerTests.swift */,
+			);
+			path = DieRollerTests;
+			sourceTree = "<group>";
+		};
+		FAB41F431CA1CABCD8CE2BC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D87368552BBE8AAFCE83B3A /* DieRoller.app */,
+				923C70590096B1856A3E7EA6 /* DieRollerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EB48912F6AEC27D6F98E5B9 /* DieRollerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CBFB14063CEAEF5CBADE745 /* Build configuration list for PBXNativeTarget "DieRollerTests" */;
+			buildPhases = (
+				7889FA96E0921CAB5E2A5E96 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B10C3488627F4E305B1458DC /* PBXTargetDependency */,
+			);
+			name = DieRollerTests;
+			packageProductDependencies = (
+			);
+			productName = DieRollerTests;
+			productReference = 923C70590096B1856A3E7EA6 /* DieRollerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F24D9B46F58769590E475F97 /* DieRoller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B7AD385901E867165B969AA /* Build configuration list for PBXNativeTarget "DieRoller" */;
+			buildPhases = (
+				1943190FAF32FCA5F39338A5 /* Sources */,
+				59EC23593E0FCE0BA60F7BC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DieRoller;
+			packageProductDependencies = (
+			);
+			productName = DieRoller;
+			productReference = 1D87368552BBE8AAFCE83B3A /* DieRoller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA892908FCD93733E9ED53F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					8EB48912F6AEC27D6F98E5B9 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					F24D9B46F58769590E475F97 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FF0FB4401FD6590A7769CC12 /* Build configuration list for PBXProject "DieRoller" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 41A2122D7581092AF3A09CA4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F24D9B46F58769590E475F97 /* DieRoller */,
+				8EB48912F6AEC27D6F98E5B9 /* DieRollerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59EC23593E0FCE0BA60F7BC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE3AD1EE7F54979BB95286D3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1943190FAF32FCA5F39338A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD1014B820D3E070B8FBB0B /* ContentView.swift in Sources */,
+				533C7C423BB9428BCA51127C /* DiceRoller.swift in Sources */,
+				60E7CD2C390565A54DB187CA /* DieRollerApp.swift in Sources */,
+				E5F52EEF581102D233E23EDE /* DieType.swift in Sources */,
+				52202C0B5A3E7F90D0A00572 /* ResultsView.swift in Sources */,
+				37BE1F515B83B5A684FD3F9A /* RollResult.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7889FA96E0921CAB5E2A5E96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19BC22FAB7F14B5539A4E177 /* DieRollerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B10C3488627F4E305B1458DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F24D9B46F58769590E475F97 /* DieRoller */;
+			targetProxy = D291E8E8A63387727ED4D8D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2835E6A24B80C51263F9808C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krisjohnson.DieRollerTests;
+				PRODUCT_NAME = DieRollerTests;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DieRoller.app/Contents/MacOS/DieRoller";
+			};
+			name = Release;
+		};
+		2A93F4344FE5793AAC320387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DieRoller/DieRoller.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DieRoller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krisjohnson.DieRoller;
+				PRODUCT_NAME = DieRoller;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		7FDD877FE1E1212848734FFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "arm64 x86_64";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		A5B0EFC1E7B475BF9B42F118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "arm64 x86_64";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		CD3A77903D1767F09C39669D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krisjohnson.DieRollerTests;
+				PRODUCT_NAME = DieRollerTests;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DieRoller.app/Contents/MacOS/DieRoller";
+			};
+			name = Debug;
+		};
+		D9956DAEFC0F1F1B13A61745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DieRoller/DieRoller.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DieRoller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.krisjohnson.DieRoller;
+				PRODUCT_NAME = DieRoller;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B7AD385901E867165B969AA /* Build configuration list for PBXNativeTarget "DieRoller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A93F4344FE5793AAC320387 /* Debug */,
+				D9956DAEFC0F1F1B13A61745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5CBFB14063CEAEF5CBADE745 /* Build configuration list for PBXNativeTarget "DieRollerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3A77903D1767F09C39669D /* Debug */,
+				2835E6A24B80C51263F9808C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FF0FB4401FD6590A7769CC12 /* Build configuration list for PBXProject "DieRoller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B0EFC1E7B475BF9B42F118 /* Debug */,
+				7FDD877FE1E1212848734FFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA892908FCD93733E9ED53F0 /* Project object */;
+}

@@ -1,0 +1,76 @@
+name: DieRoller
+options:
+  bundleIdPrefix: com.krisjohnson
+  deploymentTarget:
+    macOS: "26.0"
+  xcodeVersion: "26.4"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    ARCHS: "arm64 x86_64"
+    ONLY_ACTIVE_ARCH: NO
+    SWIFT_VERSION: "6.0"
+
+targets:
+  DieRoller:
+    type: application
+    platform: macOS
+    deploymentTarget: "26.0"
+    sources:
+      - path: DieRoller
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.krisjohnson.DieRoller
+        PRODUCT_NAME: DieRoller
+        INFOPLIST_FILE: DieRoller/Info.plist
+        DEVELOPMENT_TEAM: ""
+        CODE_SIGN_STYLE: Automatic
+        ENABLE_APP_SANDBOX: YES
+        GENERATE_INFOPLIST_FILE: NO
+        SWIFT_EMIT_LOC_STRINGS: YES
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+    entitlements:
+      path: DieRoller/DieRoller.entitlements
+      properties:
+        com.apple.security.app-sandbox: true
+
+  DieRollerTests:
+    type: bundle.unit-test
+    platform: macOS
+    deploymentTarget: "26.0"
+    sources:
+      - path: DieRollerTests
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.krisjohnson.DieRollerTests
+        PRODUCT_NAME: DieRollerTests
+        BUNDLE_LOADER: "$(TEST_HOST)"
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/DieRoller.app/Contents/MacOS/DieRoller"
+        DEVELOPMENT_TEAM: ""
+        CODE_SIGN_STYLE: Automatic
+        GENERATE_INFOPLIST_FILE: YES
+        SWIFT_EMIT_LOC_STRINGS: NO
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+    dependencies:
+      - target: DieRoller
+
+schemes:
+  DieRoller:
+    build:
+      targets:
+        DieRoller: all
+        DieRollerTests: testing
+    test:
+      targets:
+        - DieRollerTests
+      config: Debug
+    run:
+      config: Debug
+    profile:
+      config: Release
+    archive:
+      config: Release
+    shared: true

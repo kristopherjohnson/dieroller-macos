@@ -1,0 +1,47 @@
+# ---- Xcode ----
+# Build products
+build/
+DerivedData/
+
+# Per-user Xcode state
+*.xcuserdata/
+*.xcuserstate
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.pins
+Package.resolved
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# ---- xcodegen ----
+project.yml.bak
+
+# ---- SourceKit-LSP (xcode-build-server) ----
+# Contains user-specific DerivedData path
+buildServer.json
+
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# ---- Editor / tooling ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
