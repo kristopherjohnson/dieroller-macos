@@ -17,10 +17,9 @@ A simple native macOS app for rolling virtual dice during tabletop games.
 
 ## Building
 
-```sh
-# Generate Xcode project (requires xcodegen)
-xcodegen generate
+The generated `DieRoller.xcodeproj` is committed, so you can build immediately:
 
+```sh
 # Build from command line
 xcodebuild -scheme DieRoller -configuration Release build
 
@@ -29,4 +28,16 @@ xcodebuild -scheme DieRoller -destination 'platform=macOS' test
 ```
 
 Or open `DieRoller.xcodeproj` in Xcode and press ⌘R.
+
+### Regenerating the Xcode project
+
+The project is defined by `project.yml` and generated with [xcodegen](https://github.com/yonaskolb/XcodeGen). Run `xcodegen generate` only after:
+
+- Editing `project.yml` (build settings, bundle id, targets, etc.).
+- Adding or removing source files under `DieRoller/` or `DieRollerTests/` — xcodegen globs sources from disk, so the `.xcodeproj` must be regenerated to pick them up.
+
+```sh
+brew install xcodegen   # if not already installed
+xcodegen generate
+```
 
